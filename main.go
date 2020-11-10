@@ -3,8 +3,7 @@ package main
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-
-	"terraform-provider-octal/octal"
+	"github.com/project-octal/terraform-provider-octal/octal"
 )
 
 func main() {

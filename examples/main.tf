@@ -1,20 +1,28 @@
 terraform {
   required_providers {
-    hashicups = {
-      versions = ["0.2"]
-      source = "hashicorp.com/edu/hashicups"
+    octal = {
+      source = "hashicorp.com/edu/octal"
     }
   }
 }
 
-provider "hashicups" {}
 
-module "psl" {
-  source = "./coffee"
+provider "octal" {}
 
-  coffee_name = "Packer Spiced Latte"
-}
+data "linkerd2" "all" {}
 
-output "psl" {
-  value = module.psl.coffee
-}
+
+
+
+
+
+
+#module "psl" {
+#  source = "./coffee"
+#
+#  coffee_name = "Packer Spiced Latte"
+#}
+#
+#output "psl" {
+#  value = module.psl.coffee
+#}
