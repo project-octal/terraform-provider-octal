@@ -1,4 +1,6 @@
-
+dist
+examples
+examples/
 # JetBrains ignore
 .idea
 
