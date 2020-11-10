@@ -1,28 +1,14 @@
 terraform {
   required_providers {
     octal = {
-      source = "hashicorp.com/edu/octal"
+      source = "project-octal/octal"
+      version = "0.0.2"
     }
   }
 }
 
+provider "octal" {
+  # Configuration options
+}
 
-provider "octal" {}
-
-data "linkerd2" "all" {}
-
-
-
-
-
-
-
-#module "psl" {
-#  source = "./coffee"
-#
-#  coffee_name = "Packer Spiced Latte"
-#}
-#
-#output "psl" {
-#  value = module.psl.coffee
-#}
+#data "linkerd2" "all" {}
