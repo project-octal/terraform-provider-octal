@@ -3,7 +3,7 @@ HOSTNAME=registry.terraform.io
 NAMESPACE=project-octal/
 NAME=octal
 BINARY=terraform-provider-${NAME}
-VERSION=0.0.4
+VERSION=0.0.6
 OS_ARCH=darwin_amd64
 
 default: install
