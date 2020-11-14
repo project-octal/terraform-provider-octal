@@ -487,6 +487,10 @@ github.com/posener/complete v1.1.1/go.mod h1:em0nMJCgc9GFtwrmVmEMR/ZL6WyhyjMBndr
 github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021/go.mod h1:prYjPmNq4d1NPVmpShWobRqXY3q7Vp+80DqgxxUrUIA=
 github.com/project-octal/linkderd-cli v0.0.0-20201109211846-0f33ee424b95 h1:SFlkbhiBcbCGNQDoKUVeqQIaO7RnEwXGfuU3MBgXNec=
 github.com/project-octal/linkderd-cli v0.0.0-20201109211846-0f33ee424b95/go.mod h1:P/H08Bre+R0K1WP9/IIhkBBWLEbQFT2njI9MsvSC3Ls=
+github.com/project-octal/linkderd-cli v0.0.0-20201110041624-d71a7cf15961 h1:Sgd/N+hS0mbxwFmjF4+t4RDm01lz4XsEMcllPHvUpNY=
+github.com/project-octal/linkderd-cli v0.0.0-20201110041624-d71a7cf15961/go.mod h1:P/H08Bre+R0K1WP9/IIhkBBWLEbQFT2njI9MsvSC3Ls=
+github.com/project-octal/linkderd-cli v0.0.0-20201113192458-49960f0ebf11 h1:v1xblEyWXJsvwmOe+8PTboMtqhCWNwT4H1zV8+yxUQc=
+github.com/project-octal/linkderd-cli v0.0.0-20201113192458-49960f0ebf11/go.mod h1:bnezW7ZY/HWjwl30XcRmV6gGZOjCm6nIUgrbQciKZzo=
 github.com/prometheus/client_golang v0.9.1/go.mod h1:7SWBe2y4D6OKWSNQJUaRYU/AaXPKyh/dDVn+NZz0KFw=
 github.com/prometheus/client_golang v1.0.0/go.mod h1:db9x61etRT2tGnBNRi70OPL5FsnadC4Ky3P0J6CfImo=
 github.com/prometheus/client_golang v1.2.1 h1:JnMpQc6ppsNgw9QPAGF6Dod479itz7lvlsMzzNayLOI=

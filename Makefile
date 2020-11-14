@@ -1,9 +1,9 @@
 TEST?=$$(go list ./... | grep -v 'vendor')
-HOSTNAME=hashicorp.com
-NAMESPACE=edu
+HOSTNAME=registry.terraform.io
+NAMESPACE=project-octal/
 NAME=octal
 BINARY=terraform-provider-${NAME}
-VERSION=0.2
+VERSION=0.0.4
 OS_ARCH=darwin_amd64
 
 default: install

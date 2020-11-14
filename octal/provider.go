@@ -9,11 +9,9 @@ func Provider() *schema.Provider {
 	provider := &schema.Provider{
 		Schema: map[string]*schema.Schema{},
 		ResourcesMap: map[string]*schema.Resource{
-			//"octal_linkerd2": linkerd2(),
-		},
-		DataSourcesMap: map[string]*schema.Resource{
 			"octal_linkerd2": linkerd2(),
 		},
+		DataSourcesMap: map[string]*schema.Resource{},
 	}
 
 	return provider
